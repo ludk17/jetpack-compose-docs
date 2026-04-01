@@ -410,4 +410,7 @@ fun PantallaInicio() {
 
 ---
 
-*Anterior: [← Modifier, Column y Box](modifier-column-box.md)*
+*Anterior: [← Modifier, Column y Box](1-modifier-column-box.md)*
+
+_Siguiente: [Componentes de Formulario →](3-componentes-formulario.md)_
+

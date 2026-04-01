@@ -275,4 +275,4 @@ fun TarjetaUsuario() {
 
 ---
 
-_Siguiente: [Row y LazyColumn →](../2.%20listas/README.md)_
+_Siguiente: [Componentes Básicos →](2-componentes-basicos.md)_
