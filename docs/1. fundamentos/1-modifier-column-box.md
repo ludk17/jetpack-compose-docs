@@ -23,9 +23,23 @@ fun Saludo() {
 
 Se encadena como una lista de instrucciones que se aplican en orden.
 
+### 📌 Reglas de Oro
+
+- **Es una lista ordenada:** El orden de las funciones SÍ altera el resultado (ej. poner `padding` antes o después de `background`).
+- **Es opcional pero vital:** Casi todos los Composables aceptan un `modifier` como parámetro.
+- **No contiene lógica:** Solo define apariencia y respuesta física (clics, gestos).
+
+### ✅ Lo que SÍ hace:
+
+- **Tamaños:** `size(40.dp)`, `fillMaxWidth()`, `height(100.dp)`.
+- **Estética:** `background(Color.Red)`, `clip(RoundedCornerShape(8.dp))`.
+- **Espaciado:** `padding(16.dp)`.
+- **Interacción:** `clickable { /* acción */ }`.
+
 ### Ejemplos básicos
 
 **Agregar tamaño y color de fondo:**
+
 ```kotlin
 @Composable
 fun CajaRoja() {
@@ -38,6 +52,7 @@ fun CajaRoja() {
 ```
 
 **Agregar padding:**
+
 ```kotlin
 @Composable
 fun TextoConPadding() {
@@ -49,6 +64,7 @@ fun TextoConPadding() {
 ```
 
 **Hacer que ocupe todo el ancho disponible:**
+
 ```kotlin
 @Composable
 fun TextoCompleto() {
@@ -60,6 +76,7 @@ fun TextoCompleto() {
 ```
 
 **Detectar clicks:**
+
 ```kotlin
 @Composable
 fun TextoClickeable() {
@@ -74,17 +91,17 @@ fun TextoClickeable() {
 
 ### Modificadores más usados
 
-| Modifier | ¿Para qué sirve? |
-|---|---|
-| `padding(dp)` | Espacio interior |
-| `size(dp)` | Ancho y alto fijo |
-| `fillMaxWidth()` | Ocupa todo el ancho |
-| `fillMaxHeight()` | Ocupa todo el alto |
-| `fillMaxSize()` | Ocupa todo el espacio |
-| `background(color)` | Color de fondo |
-| `clickable { }` | Detectar toque |
-| `border(...)` | Agregar borde |
-| `clip(shape)` | Recortar con forma |
+| Modifier            | ¿Para qué sirve?      |
+| ------------------- | --------------------- |
+| `padding(dp)`       | Espacio interior      |
+| `size(dp)`          | Ancho y alto fijo     |
+| `fillMaxWidth()`    | Ocupa todo el ancho   |
+| `fillMaxHeight()`   | Ocupa todo el alto    |
+| `fillMaxSize()`     | Ocupa todo el espacio |
+| `background(color)` | Color de fondo        |
+| `clickable { }`     | Detectar toque        |
+| `border(...)`       | Agregar borde         |
+| `clip(shape)`       | Recortar con forma    |
 
 > **Nota:** El orden importa. `padding` antes de `background` se comporta diferente que al revés.
 
@@ -128,12 +145,13 @@ fun ColumnaOrdenada() {
 
 ### Parámetros clave de Column
 
-| Parámetro | Descripción |
-|---|---|
+| Parámetro             | Descripción                             |
+| --------------------- | --------------------------------------- |
 | `verticalArrangement` | Cómo distribuir los hijos verticalmente |
-| `horizontalAlignment` | Cómo alinear los hijos horizontalmente |
+| `horizontalAlignment` | Cómo alinear los hijos horizontalmente  |
 
 **Valores comunes de `verticalArrangement`:**
+
 - `Arrangement.Top` — desde arriba (por defecto)
 - `Arrangement.Bottom` — desde abajo
 - `Arrangement.Center` — al centro
@@ -141,6 +159,7 @@ fun ColumnaOrdenada() {
 - `Arrangement.spacedBy(8.dp)` — espacio fijo entre elementos
 
 **Valores comunes de `horizontalAlignment`:**
+
 - `Alignment.Start` — a la izquierda
 - `Alignment.CenterHorizontally` — centrado
 - `Alignment.End` — a la derecha
@@ -203,27 +222,27 @@ fun BoxSuperposicion() {
 
 Dentro de un `Box`, puedes usar `Modifier.align(...)` en cada hijo para posicionarlo:
 
-| Alineación | Posición |
-|---|---|
-| `Alignment.TopStart` | Arriba a la izquierda |
-| `Alignment.TopCenter` | Arriba al centro |
-| `Alignment.TopEnd` | Arriba a la derecha |
-| `Alignment.CenterStart` | Centro izquierda |
-| `Alignment.Center` | Centro |
-| `Alignment.CenterEnd` | Centro derecha |
-| `Alignment.BottomStart` | Abajo a la izquierda |
-| `Alignment.BottomCenter` | Abajo al centro |
-| `Alignment.BottomEnd` | Abajo a la derecha |
+| Alineación               | Posición              |
+| ------------------------ | --------------------- |
+| `Alignment.TopStart`     | Arriba a la izquierda |
+| `Alignment.TopCenter`    | Arriba al centro      |
+| `Alignment.TopEnd`       | Arriba a la derecha   |
+| `Alignment.CenterStart`  | Centro izquierda      |
+| `Alignment.Center`       | Centro                |
+| `Alignment.CenterEnd`    | Centro derecha        |
+| `Alignment.BottomStart`  | Abajo a la izquierda  |
+| `Alignment.BottomCenter` | Abajo al centro       |
+| `Alignment.BottomEnd`    | Abajo a la derecha    |
 
 ---
 
 ## Comparación rápida
 
-| Composable | Organización |
-|---|---|
-| `Column` | Vertical (↓) |
-| `Row` | Horizontal (→) |
-| `Box` | Apilado / superpuesto |
+| Composable | Organización          |
+| ---------- | --------------------- |
+| `Column`   | Vertical (↓)          |
+| `Row`      | Horizontal (→)        |
+| `Box`      | Apilado / superpuesto |
 
 ---
 
@@ -256,4 +275,4 @@ fun TarjetaUsuario() {
 
 ---
 
-*Siguiente: [Row y LazyColumn →](../2.%20listas/README.md)*
+_Siguiente: [Row y LazyColumn →](../2.%20listas/README.md)_
