@@ -4,7 +4,9 @@ Imagina que sigues en el restaurante. Ya sabes que **HTTP** es el mesero, pero �
 
 Ahí es donde entra **el Menú**.
 
-Una **API** (Application Programming Interface, o Interfaz de Programación de Aplicaciones) **es como un menú de restaurante para las computadoras.**
+Una **API** (Application Programming Interface, o Interfaz de Programación de Aplicaciones) **es el mecanismo o puente de comunicación que permite a dos aplicaciones o programas diferentes hablar entre ellos** de forma segura. 
+
+En palabras sencillas: **las APIs son como un menú de restaurante para las computadoras.**
 
 Así como el menú te dice: *"Puedes pedir papas fritas y cuestan esto"*. 
 La API le dice a tu computadora (o a otras aplicaciones): *"Puedes pedirme la lista de usuarios y necesitas darme tu contraseña"*.
