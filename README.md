@@ -19,6 +19,24 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 |---|---|
 | [Modifier, Column y Box](docs/1.%20fundamentos/1-modifier-column-box.md) | Layouts básicos, Modifier, apilamiento |
 | [Componentes básicos](docs/1.%20fundamentos/2-componentes-basicos.md) | Text, Image, Icon, Button, Scaffold, LazyColumn |
+| [Formularios](docs/1.%20fundamentos/3-componentes-formulario.md) | TextField, Checkbox, Slider, Switch, RadioButton |
+| [Estado y Remember](docs/1.%20fundamentos/4-estados-remember.md) | mutableStateOf, remember, StateHoisting |
+
+### 📂 2. HTTP y Networking
+> Semana 2+ — Consumo de datos desde la web
+
+| Archivo | Temas |
+|---|---|
+| [Protocolo HTTP](docs/2.%20http/1-que-es-http.md) | Conceptos, Petición, Respuesta, Status Codes |
+| [¿Qué es una API?](docs/2.%20http/2-que-es-una-api.md) | Clientes, Servidores, Endpoints |
+| [REST y JSON](docs/2.%20http/3-rest-y-json.md) | Formato JSON, Verbos REST (GET, POST, etc.) |
+| [Partes de una petición](docs/2.%20http/4-partes-peticion-http.md) | URL, Headers, Body, Parameters |
+| [Síncrono vs Asíncrono](docs/2.%20http/5-sync-vs-async.md) | Bloqueo de hilos, Corrutinas básicas |
+| [Retrofit](docs/2.%20http/6-retrofit.md) | Configuración, Interfaz, Client, Implementation |
+| ⏳ Retrofit Avanzado | Headers, Tokens de autenticación, Interceptores |
+| ⏳ ViewModel | Separar lógica de la UI, LiveData, StateFlow |
+| ⏳ Estados de carga | Loading, Error, Success con sealed classes |
+| ⏳ Navegación | NavController, rutas, paso de parámetros entre pantallas |
 
 ---
 
@@ -48,9 +66,18 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 ```
 jetpack-compose-docs/
 └── docs/
-    └── 1. fundamentos/
-        ├── 1-modifier-column-box.md
-        └── 2-componentes-basicos.md
+    ├── 1. fundamentos/
+    │   ├── 1-modifier-column-box.md
+    │   ├── 2-componentes-basicos.md
+    │   ├── 3-componentes-formulario.md
+    │   └── 4-estados-remember.md
+    └── 2. http/
+        ├── 1-que-es-http.md
+        ├── 2-que-es-una-api.md
+        ├── 3-rest-y-json.md
+        ├── 4-partes-peticion-http.md
+        ├── 5-sync-vs-async.md
+        └── 6-retrofit.md
 ```
 
 ---
