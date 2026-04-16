@@ -34,7 +34,7 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Síncrono vs Asíncrono](docs/2.%20http/5-sync-vs-async.md) | Bloqueo de hilos, Corrutinas básicas |
 | [Retrofit](docs/2.%20http/6-retrofit.md) | Configuración, Interfaz, Client, Implementation |
 | ⏳ Retrofit Avanzado | Headers, Tokens de autenticación, Interceptores |
-| ⏳ ViewModel | Separar lógica de la UI, LiveData, StateFlow |
+| [ViewModel](docs/2.%20http/7-viewmodel.md) | Separar lógica de la UI, lifecycle, viewModelScope |
 | ⏳ Estados de carga | Loading, Error, Success con sealed classes |
 | ⏳ Navegación | NavController, rutas, paso de parámetros entre pantallas |
 
@@ -77,7 +77,8 @@ jetpack-compose-docs/
         ├── 3-rest-y-json.md
         ├── 4-partes-peticion-http.md
         ├── 5-sync-vs-async.md
-        └── 6-retrofit.md
+        ├── 6-retrofit.md
+        └── 7-viewmodel.md
 ```
 
 ---

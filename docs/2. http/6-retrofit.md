@@ -100,3 +100,6 @@ fun GameListScreen() {
 > [!TIP]
 > Recuerda siempre añadir el permiso de internet en tu archivo `AndroidManifest.xml`:
 > `<uses-permission android:name="android.permission.INTERNET" />`
+
+---
+_Siguiente: [ViewModel →](7-viewmodel.md)_
