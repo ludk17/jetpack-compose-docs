@@ -33,10 +33,26 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Partes de una petición](docs/2.%20http/4-partes-peticion-http.md) | URL, Headers, Body, Parameters |
 | [Síncrono vs Asíncrono](docs/2.%20http/5-sync-vs-async.md) | Bloqueo de hilos, Corrutinas básicas |
 | [Retrofit](docs/2.%20http/6-retrofit.md) | Configuración, Interfaz, Client, Implementation |
-| ⏳ Retrofit Avanzado | Headers, Tokens de autenticación, Interceptores |
 | [ViewModel](docs/2.%20http/7-viewmodel.md) | Separar lógica de la UI, lifecycle, viewModelScope |
-| ⏳ Estados de carga | Loading, Error, Success con sealed classes |
-| ⏳ Navegación | NavController, rutas, paso de parámetros entre pantallas |
+| [Estados de carga](docs/2.%20http/8-estados-carga.md) | Loading, Error, Success con sealed classes |
+
+### 📂 3. Navegación
+> Semana 4+ — Manejo de múltiples pantallas
+
+| Archivo | Temas |
+|---|---|
+| [¿Qué es la Navegación?](docs/3.%20navegacion/1-que-es-navegacion.md) | Conceptos, NavController, NavHost, Pilas |
+| [NavHost y Rutas](docs/3.%20navegacion/2-navhost-y-rutas.md) | Implementación, composable, transiciones básicas |
+| [Argumentos](docs/3.%20navegacion/3-pasar-argumentos.md) | Paso de parámetros entre pantallas, NavType |
+
+### 📂 4. IA (Inteligencia Artificial)
+> Semana 6+ — La IA como potenciador del desarrollador (Copiloto)
+
+| Archivo | Temas |
+|---|---|
+| [Agentes de IA](docs/4.%20ai/1-agentes-ia.md) | Definición, ciclo de razonamiento, **el rol del desarrollador como guía** |
+| [Skills de Agentes](docs/4.%20ai/2-skills-agentes.md) | Herramientas, anatomía de un skill, coincidencia semántica |
+| [Creando un Skill](docs/4.%20ai/3-creando-un-skill.md) | Ejemplo práctico, metadata y lógica en Kotlin |
 
 ---
 
@@ -71,14 +87,23 @@ jetpack-compose-docs/
     │   ├── 2-componentes-basicos.md
     │   ├── 3-componentes-formulario.md
     │   └── 4-estados-remember.md
-    └── 2. http/
-        ├── 1-que-es-http.md
-        ├── 2-que-es-una-api.md
-        ├── 3-rest-y-json.md
-        ├── 4-partes-peticion-http.md
-        ├── 5-sync-vs-async.md
-        ├── 6-retrofit.md
-        └── 7-viewmodel.md
+    ├── 2. http/
+    │   ├── 1-que-es-http.md
+    │   ├── 2-que-es-una-api.md
+    │   ├── 3-rest-y-json.md
+    │   ├── 4-partes-peticion-http.md
+    │   ├── 5-sync-vs-async.md
+    │   ├── 6-retrofit.md
+    │   ├── 7-viewmodel.md
+    │   └── 8-estados-carga.md
+    ├── 3. navegacion/
+    │   ├── 1-que-es-navegacion.md
+    │   ├── 2-navhost-y-rutas.md
+    │   └── 3-pasar-argumentos.md
+    └── 4. ai/
+        ├── 1-agentes-ia.md
+        ├── 2-skills-agentes.md
+        └── 3-creando-un-skill.md
 ```
 
 ---
