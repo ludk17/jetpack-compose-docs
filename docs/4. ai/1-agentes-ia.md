@@ -34,6 +34,15 @@ graph TD
 2.  **Razonar:** El LLM analiza qué debe hacer a continuación (¿Necesito buscar información? ¿Debo calcular algo?).
 3.  **Actuar:** Ejecuta una acción (usar una herramienta, escribir código, responder al usuario).
 
+Un agente no solo responde, sino que **decide qué hacer**. Veamos un caso concreto:
+
+> [!EXAMPLE]
+> **Caso: Agente vs Script ante un crash de Android**
+> 
+> - **Script tradicional:** "Si el error contiene 'NullPointerException', mostrar mensaje X. Si contiene 'OutOfMemory', mostrar mensaje Y." (Se rompe si el error es diferente)
+> 
+> - **Agente de IA:** "Analizo el mensaje de error, busco en la documentación, identifico la causa raíz y sugiero una solución específica según el contexto de tu app."
+
 ---
 
 ## Diferencia entre un Script y un Agente
@@ -54,6 +63,8 @@ Como desarrolladores de Android, los agentes pueden ayudarnos a:
 - Explicar errores complejos en el Logcat.
 - Sugerir refactorizaciones basadas en buenas prácticas.
 
+Esta capacidad de razonar y adaptarse cambia nuestra relación con la herramienta: **el agente es un asistente que amplifica lo que sabemos hacer**.
+
 ## 🧠 El Humano al Mando: Copiloto, no reemplazo
 
 Es fácil pensar que el Agente, al tener tanto "conocimiento", puede hacerlo todo solo. Pero la realidad es distinta: **tú eres el Capitán y el Agente es tu Primer Oficial.**
@@ -65,6 +76,18 @@ Es fácil pensar que el Agente, al tener tanto "conocimiento", puede hacerlo tod
 
 > [!TIP]
 > **Regla de oro:** No aceptes código de un Agente que no entiendas. Tu trabajo es revisar, corregir y dar la dirección correcta.
+
+---
+
+## 📋 Resumen
+
+| Paso | Qué hace | Ejemplo en Android |
+| :--- | :--- | :--- |
+| **Percibir** | Recibe la tarea o detecta un cambio | "Este código me da un crash en producción" |
+| **Razonar** | Analiza opciones y decide la siguiente acción | "Es un NullPointerException, busco dónde puede ser null" |
+| **Actuar** | Ejecuta la acción elegida | propone la solución y escribe el código corregido |
+
+Volviendo a la analogía del Chef: **tú eres el Chef Principal que sabe lo que quiere cocinar, el agente es tu ayudante de cocina que prepara los ingredientes y ejecuta las técnicas** — pero el plato final lo firmas tú.
 
 ---
 
