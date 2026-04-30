@@ -84,4 +84,6 @@ Guarda el archivo en el almacenamiento local de la app.
 
 ---
 
+_Siguiente: [OpenCode: Tu Compañero en la Línea de Comandos →](4-opencode.md)_
+
 _Volver al inicio: [README.md](../../README.md)_
