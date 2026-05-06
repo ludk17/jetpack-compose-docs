@@ -116,4 +116,4 @@ Al igual que con los agentes de IA, **tú das las órdenes y OpenCode las ejecut
 
 ---
 
-_Siguiente: [Mejores Prácticas con IA →](../README.md)_
+_Siguiente: [Introducción a Firestore →](../5.%20firebase/1-introduccion-firestore.md)_

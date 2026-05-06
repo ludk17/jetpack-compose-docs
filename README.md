@@ -54,6 +54,16 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Skills de Agentes](docs/4.%20ai/2-skills-agentes.md) | Herramientas, anatomía de un skill, coincidencia semántica |
 | [Creando un Skill](docs/4.%20ai/3-creando-un-skill.md) | Ejemplo práctico, metadata y lógica en Kotlin |
 
+### 📂 5. Firebase
+> Semana 8+ — Backend como servicio (BaaS) y Persistencia en la nube
+
+| Archivo | Temas |
+|---|---|
+| [Introducción a Firestore](docs/5.%20firebase/1-introduccion-firestore.md) | NoSQL, Documentos, Colecciones, Configuración |
+| [CRUD en Firestore](docs/5.%20firebase/2-crud-firestore.md) | Crear, Leer, Actualizar y Eliminar datos |
+| [Consultas Avanzadas](docs/5.%20firebase/3-consultas-avanzadas.md) | Filtros, Búsquedas y Paginación |
+| [Ejercicios](docs/5.%20firebase/4-ejercicios.md) | Retos prácticos de Firestore |
+
 ---
 
 > 🔄 *Este repositorio se actualiza semanalmente con el material de cada clase.*
@@ -100,10 +110,15 @@ jetpack-compose-docs/
     │   ├── 1-que-es-navegacion.md
     │   ├── 2-navhost-y-rutas.md
     │   └── 3-pasar-argumentos.md
-    └── 4. ai/
-        ├── 1-agentes-ia.md
-        ├── 2-skills-agentes.md
-        └── 3-creando-un-skill.md
+    ├── 4. ai/
+    │   ├── 1-agentes-ia.md
+    │   ├── 2-skills-agentes.md
+    │   └── 3-creando-un-skill.md
+    └── 5. firebase/
+        ├── 1-introduccion-firestore.md
+        ├── 2-crud-firestore.md
+        ├── 3-consultas-avanzadas.md
+        └── 4-ejercicios.md
 ```
 
 ---
