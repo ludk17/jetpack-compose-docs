@@ -63,6 +63,8 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [CRUD en Firestore](docs/5.%20firebase/2-crud-firestore.md) | Crear, Leer, Actualizar y Eliminar datos |
 | [Consultas Avanzadas](docs/5.%20firebase/3-consultas-avanzadas.md) | Filtros, Búsquedas y Paginación |
 | [Ejercicios](docs/5.%20firebase/4-ejercicios.md) | Retos prácticos de Firestore |
+| [Firebase Authentication](docs/5.%20firebase/5-firebase-auth.md) | Registro, Login, sesión por usuario, integración con Firestore |
+| [Jetpack DataStore](docs/5.%20firebase/6-jetpack-datastore.md) | Almacenamiento local con Flow, reemplazo de SharedPreferences |
 
 ---
 
@@ -118,7 +120,9 @@ jetpack-compose-docs/
         ├── 1-introduccion-firestore.md
         ├── 2-crud-firestore.md
         ├── 3-consultas-avanzadas.md
-        └── 4-ejercicios.md
+        ├── 4-ejercicios.md
+        ├── 5-firebase-auth.md
+        └── 6-jetpack-datastore.md
 ```
 
 ---

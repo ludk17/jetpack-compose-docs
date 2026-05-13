@@ -40,4 +40,4 @@ Simula el comportamiento de una red social:
 
 ---
 
-_Volver al inicio: [README.md](../../README.md)_
+_Siguiente: [Firebase Authentication →](5-firebase-auth.md)_
