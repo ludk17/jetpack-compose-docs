@@ -65,4 +65,4 @@ Por defecto, los argumentos son strings, pero puedes especificar otros tipos:
 > No intentes pasar objetos complejos (como un objeto `Usuario` completo) a través de la navegación. Lo ideal es pasar solo el **ID** y que la pantalla de destino busque el objeto en una base de datos o API.
 
 ---
-_Has completado el módulo de Navegación._
+_Siguiente: [Manejo de la pila →](4-manejo-pila.md)_

@@ -44,6 +44,8 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [¿Qué es la Navegación?](docs/3.%20navegacion/1-que-es-navegacion.md) | Conceptos, NavController, NavHost, Pilas |
 | [NavHost y Rutas](docs/3.%20navegacion/2-navhost-y-rutas.md) | Implementación, composable, transiciones básicas |
 | [Argumentos](docs/3.%20navegacion/3-pasar-argumentos.md) | Paso de parámetros entre pantallas, NavType |
+| [Manejo de la pila](docs/3.%20navegacion/4-manejo-pila.md) | popUpTo, inclusive, flujo Login → Home |
+| [Ejercicios](docs/3.%20navegacion/5-ejercicios.md) | Retos de rutas, argumentos, pila y BottomNavigation |
 
 ### 📂 4. IA (Inteligencia Artificial)
 > Semana 6+ — La IA como potenciador del desarrollador (Copiloto)
@@ -65,6 +67,16 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Ejercicios](docs/5.%20firebase/4-ejercicios.md) | Retos prácticos de Firestore |
 | [Firebase Authentication](docs/5.%20firebase/5-firebase-auth.md) | Registro, Login, sesión por usuario, integración con Firestore |
 | [Jetpack DataStore](docs/5.%20firebase/6-jetpack-datastore.md) | Almacenamiento local con Flow, reemplazo de SharedPreferences |
+
+### 📂 6. Maps y Geolocalización
+> Semana 10+ — Mapas interactivos y ubicación del dispositivo
+
+| Archivo | Temas |
+|---|---|
+| [Configuración de Google Maps](docs/6.%20maps/1-configuracion-google-maps.md) | API Key, dependencias, AndroidManifest, local.properties |
+| [Mapa y Marcadores](docs/6.%20maps/2-mapa-y-marcadores.md) | GoogleMap, CameraPositionState, Marker, MapProperties, eventos |
+| [Geolocalización](docs/6.%20maps/3-geolocalizacion.md) | Permisos en runtime, FusedLocationProviderClient, ubicación en mapa |
+| [Ejercicios](docs/6.%20maps/4-ejercicios.md) | Retos de marcadores, toque largo, ubicación actual y tiendas cercanas |
 
 ---
 
@@ -111,18 +123,23 @@ jetpack-compose-docs/
     ├── 3. navegacion/
     │   ├── 1-que-es-navegacion.md
     │   ├── 2-navhost-y-rutas.md
-    │   └── 3-pasar-argumentos.md
+    │   ├── 3-pasar-argumentos.md
+    │   └── 4-manejo-pila.md
     ├── 4. ai/
     │   ├── 1-agentes-ia.md
     │   ├── 2-skills-agentes.md
     │   └── 3-creando-un-skill.md
-    └── 5. firebase/
-        ├── 1-introduccion-firestore.md
-        ├── 2-crud-firestore.md
-        ├── 3-consultas-avanzadas.md
-        ├── 4-ejercicios.md
-        ├── 5-firebase-auth.md
-        └── 6-jetpack-datastore.md
+    ├── 5. firebase/
+    │   ├── 1-introduccion-firestore.md
+    │   ├── 2-crud-firestore.md
+    │   ├── 3-consultas-avanzadas.md
+    │   ├── 4-ejercicios.md
+    │   ├── 5-firebase-auth.md
+    │   └── 6-jetpack-datastore.md
+    └── 6. maps/
+        ├── 1-configuracion-google-maps.md
+        ├── 2-mapa-y-marcadores.md
+        └── 3-geolocalizacion.md
 ```
 
 ---
