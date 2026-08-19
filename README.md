@@ -12,6 +12,17 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 
 ## Contenido del curso
 
+### 📂 0. Fundamentos de Kotlin
+> Semana 0 — Sintaxis moderna de Kotlin necesaria para Jetpack Compose
+
+| Archivo | Temas |
+|---|---|
+| [Variables y Tipos](docs/0.%20kotlin/1-variables-y-tipos.md) | `val` vs `var`, tipos básicos, inferencia, String templates |
+| [Funciones y Lambdas](docs/0.%20kotlin/2-funciones-y-lambdas.md) | `fun`, parámetros por defecto y con nombre, Trailing Lambdas en Compose |
+| [Null Safety y Control de Flujo](docs/0.%20kotlin/3-null-safety.md) | Tipos anulables `?`, Safe call `?.`, Elvis `?:`, `if` expresión, `when` |
+| [Clases y Data Classes](docs/0.%20kotlin/4-clases-y-data-classes.md) | `class`, `data class`, `.copy()`, `sealed interface` para UI States |
+| [Colecciones y Operaciones](docs/0.%20kotlin/5-colecciones-y-operaciones.md) | `listOf`, `mutableListOf`, `.map`, `.filter`, `.sortedBy`, uso con `LazyColumn` |
+
 ### 📂 1. Fundamentos
 > Semana 1 — Bases del lenguaje visual de Compose
 
@@ -106,6 +117,12 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 ```
 jetpack-compose-docs/
 └── docs/
+    ├── 0. kotlin/
+    │   ├── 1-variables-y-tipos.md
+    │   ├── 2-funciones-y-lambdas.md
+    │   ├── 3-null-safety.md
+    │   ├── 4-clases-y-data-classes.md
+    │   └── 5-colecciones-y-operaciones.md
     ├── 1. fundamentos/
     │   ├── 1-modifier-column-box.md
     │   ├── 2-componentes-basicos.md

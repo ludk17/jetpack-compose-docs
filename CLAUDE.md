@@ -10,6 +10,7 @@ Repositorio de **documentación en Markdown** para el curso de Android Jetpack C
 
 ```
 docs/
+├── 0. kotlin/          # Semana 0: Sintaxis de Kotlin requerida para Compose
 ├── 1. fundamentos/     # Semana 1: Bases de Compose (layouts, componentes, estado)
 └── 2. http/            # Semana 2+: HTTP, APIs, REST, Retrofit
 ```
