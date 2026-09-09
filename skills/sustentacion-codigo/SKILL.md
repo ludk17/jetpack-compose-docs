@@ -18,6 +18,8 @@ Si no da argumento, pregúntale primero, en una sola línea, qué funcionalidad 
 
 No asumas que el foco es "todo el proyecto" — siempre debe ser algo acotado que el estudiante señale.
 
+Si el foco no coincide con nada identificable en el código (pantalla o archivo inexistente, nombre ambiguo), dile brevemente que no lo encuentras y pídele que aclare o señale el archivo, antes de seguir.
+
 ## Paso 1 — Preparar las preguntas (en silencio, sin mostrarlo al estudiante)
 
 Lee el código relevante al foco elegido (usa Read/Grep sobre los archivos involucrados, no hace falta leer todo el proyecto).
@@ -31,6 +33,10 @@ Identifica de 3 a 5 puntos concretos que valga la pena preguntar, priorizando:
 No le muestres esta lista al estudiante de una vez. Es tu guion interno.
 
 ## Paso 2 — Preguntar, una por una
+
+Antes de la primera pregunta, manda un mensaje corto (1 línea) explicando la dinámica: una pregunta a la vez, responde con sus propias palabras.
+
+Haz todas las preguntas que preparaste en el Paso 1 (entre 3 y 5), salvo que el estudiante pida parar antes.
 
 Reglas estrictas:
 
@@ -48,6 +54,8 @@ No busques precisión técnica ni vocabulario correcto. El criterio es: **¿tien
 - Si la respuesta tiene sentido (aunque sea informal o incompleta en detalles menores): confírmalo brevemente en una frase, sin dar clase, y pasa a la siguiente pregunta.
 - Si la respuesta es vaga, incorrecta, o suena a que solo repite lo que "generó la IA" sin entenderlo: dale **una** repregunta más simple o un empujón (no la respuesta) para que lo intente de nuevo. Ej.: "Piénsalo así: ¿qué valor tiene esa variable cuando abres el modal desde el +, comparado a cuando lo abres desde una fila?".
 - Si en el segundo intento sigue sin lograrlo: explícaselo tú en 1-2 frases simples, sin tecnicismos, y sigue adelante. No lo hagas sentir mal por no saberlo; el objetivo es que se vaya entendiéndolo, no reprobarlo en el momento.
+
+Si en cualquier momento el estudiante te pide directamente la respuesta ("dime tú qué hace"), no se la des todavía — recuérdale en una frase que primero lo intente él, y repite la repregunta o el empujón.
 
 No expliques de más cuando la respuesta ya estuvo bien — una frase de confirmación basta, luego la siguiente pregunta.
 
