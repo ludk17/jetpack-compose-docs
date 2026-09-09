@@ -29,7 +29,7 @@ En `build.gradle.kts` (módulo app):
 
 ```kotlin
 dependencies {
-    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-auth")
 }
 ```
 

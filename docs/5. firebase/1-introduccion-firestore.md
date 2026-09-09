@@ -39,7 +39,7 @@ Para usar Firestore en Android, necesitamos:
 ```kotlin
 // build.gradle (Module :app)
 dependencies {
-    implementation("com.google.firebase:firebase-firestore-ktx:24.10.0")
+    implementation("com.google.firebase:firebase-firestore")
 }
 ```
 
