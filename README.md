@@ -89,6 +89,26 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Geolocalización](docs/6.%20maps/3-geolocalizacion.md) | Permisos en runtime, FusedLocationProviderClient, ubicación en mapa |
 | [Ejercicios](docs/6.%20maps/4-ejercicios.md) | Retos de marcadores, toque largo, ubicación actual y tiendas cercanas |
 
+### 📂 7. Dart
+> Semana 12+ — Fundamentos del lenguaje Dart (base para Flutter)
+
+| Archivo | Temas |
+|---|---|
+| [Variables y Tipos](docs/7.%20dart/1-variables-y-tipos.md) | `main()`, `var` / `final` / `const`, `int`, `double`, `String`, `bool`, `List`, `Set`, `Map`, null safety |
+| [Funciones](docs/7.%20dart/2-funciones.md) | Declaración, `void`, funciones flecha `=>`, posicionales opcionales `[ ]`, funciones anónimas |
+| [Parámetros Nombrados](docs/7.%20dart/3-parametros-nombrados.md) | `{ }`, `required`, valores por defecto, combinación con posicionales, comparación con Kotlin |
+| [Clases e Instancias](docs/7.%20dart/4-clases-e-instancias.md) | `class`, constructores, `this.`, constructores con nombre, `_` privado, getters/setters, `extends` |
+
+### 📂 8. Flutter
+> Semana 13+ — Conceptos básicos de Flutter
+
+| Archivo | Temas |
+|---|---|
+| [¿Qué es Flutter? y MaterialApp](docs/8.%20flutter/1-que-es-flutter-y-materialapp.md) | Widgets, árbol de widgets, `runApp`, `MaterialApp`, tema, Hot Reload |
+| [Scaffold](docs/8.%20flutter/2-scaffold.md) | `appBar`, `body`, `floatingActionButton`, `bottomNavigationBar` |
+| [Widgets más usados](docs/8.%20flutter/3-widgets-mas-usados.md) | `Text`, `Icon`, `Image`, `Column`, `Row`, `Stack`, `Padding`, `SizedBox`, `Container`, botones, `TextField`, `ListView` |
+| [Stateless vs Stateful](docs/8.%20flutter/4-stateless-vs-stateful.md) | `StatelessWidget`, `StatefulWidget`, `setState()`, comparación con `remember` |
+
 ---
 
 > 🔄 *Este repositorio se actualiza semanalmente con el material de cada clase.*
@@ -153,10 +173,21 @@ jetpack-compose-docs/
     │   ├── 4-ejercicios.md
     │   ├── 5-firebase-auth.md
     │   └── 6-jetpack-datastore.md
-    └── 6. maps/
-        ├── 1-configuracion-google-maps.md
-        ├── 2-mapa-y-marcadores.md
-        └── 3-geolocalizacion.md
+    ├── 6. maps/
+    │   ├── 1-configuracion-google-maps.md
+    │   ├── 2-mapa-y-marcadores.md
+    │   ├── 3-geolocalizacion.md
+    │   └── 4-ejercicios.md
+    ├── 7. dart/
+    │   ├── 1-variables-y-tipos.md
+    │   ├── 2-funciones.md
+    │   ├── 3-parametros-nombrados.md
+    │   └── 4-clases-e-instancias.md
+    └── 8. flutter/
+        ├── 1-que-es-flutter-y-materialapp.md
+        ├── 2-scaffold.md
+        ├── 3-widgets-mas-usados.md
+        └── 4-stateless-vs-stateful.md
 ```
 
 ---
