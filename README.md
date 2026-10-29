@@ -110,6 +110,7 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Stateless vs Stateful](docs/8.%20flutter/4-stateless-vs-stateful.md) | `StatelessWidget`, `StatefulWidget`, `setState()`, comparación con `remember` |
 | [Catálogo de Widgets](docs/8.%20flutter/5-catalogo-de-widgets.md) | Referencia de consulta: índice "Quiero...", `child` vs `children`, constructores con nombre, propiedades de cada widget, `TextStyle`, `EdgeInsets`, `BoxDecoration`, alineaciones |
 | [Ejercicio: Pantalla Stateless](docs/8.%20flutter/6-ejercicio-pantalla-stateless.md) | Pantalla "Café UPN" paso a paso: `Stack`, `Wrap`, `Chip`, `Card`, `ListTile`, `Expanded`, widget propio reutilizable |
+| [Guía paso a paso: Café UPN](docs/8.%20flutter/7-guia-paso-a-paso-cafe-upn.md) | Construcción guiada del ejercicio 6: código de cada paso, por qué se usa cada widget, resultado esperado y errores frecuentes |
 
 ---
 
@@ -191,7 +192,8 @@ jetpack-compose-docs/
         ├── 3-widgets-mas-usados.md
         ├── 4-stateless-vs-stateful.md
         ├── 5-catalogo-de-widgets.md
-        └── 6-ejercicio-pantalla-stateless.md
+        ├── 6-ejercicio-pantalla-stateless.md
+        └── 7-guia-paso-a-paso-cafe-upn.md
 ```
 
 ---

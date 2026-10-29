@@ -316,3 +316,5 @@ Antes de entregar, revisa que tu pantalla cumpla todo:
 ---
 
 _Anterior: [← Catálogo de Widgets](5-catalogo-de-widgets.md)_
+
+_Siguiente: [Guía paso a paso: Café UPN →](7-guia-paso-a-paso-cafe-upn.md)_
