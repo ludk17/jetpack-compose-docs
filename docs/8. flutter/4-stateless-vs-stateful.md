@@ -216,4 +216,4 @@ flowchart TD
 
 ---
 
-_Siguiente: Próximamente_
+_Siguiente: [Catálogo de Widgets →](5-catalogo-de-widgets.md)_
