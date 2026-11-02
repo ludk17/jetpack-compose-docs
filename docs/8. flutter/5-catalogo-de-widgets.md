@@ -144,6 +144,8 @@ Scaffold(
 )
 ```
 
+<img src="img/catalogo/scaffold.png" alt="Scaffold" width="380">
+
 ### `AppBar`
 
 La **barra superior** de la pantalla.
@@ -170,6 +172,8 @@ AppBar(
   ],
 )
 ```
+
+<img src="img/catalogo/appbar.png" alt="AppBar" width="380">
 
 ### `SafeArea`
 
@@ -208,6 +212,8 @@ const Text(
 )
 ```
 
+<img src="img/catalogo/text.png" alt="Text" width="380">
+
 ### `Icon`
 
 Muestra un ícono de Material Design.
@@ -221,6 +227,8 @@ Muestra un ícono de Material Design.
 ```dart
 const Icon(Icons.star, color: Colors.amber, size: 32)
 ```
+
+<img src="img/catalogo/icon.png" alt="Icon" width="380">
 
 > [!TIP]
 > Busca íconos en [fonts.google.com/icons](https://fonts.google.com/icons). El nombre se escribe en minúsculas con guiones bajos: *"Shopping Cart"* → `Icons.shopping_cart`.
@@ -257,6 +265,8 @@ ClipRRect(
 )
 ```
 
+<img src="img/catalogo/image.png" alt="Image y ClipRRect" width="380">
+
 ### `CircleAvatar`
 
 Un **círculo** para fotos de perfil o iniciales.
@@ -285,6 +295,8 @@ Row(
 )
 ```
 
+<img src="img/catalogo/circleavatar.png" alt="CircleAvatar" width="380">
+
 ---
 
 ## 📐 Organizar (layout)
@@ -311,6 +323,8 @@ const Column(
 )
 ```
 
+<img src="img/catalogo/column.png" alt="Column" width="380">
+
 ### `Row`
 
 Pone sus hijos **uno al lado del otro** ↔️, como los asientos de una fila del cine 🎬. Tiene las **mismas propiedades** que `Column`, pero los ejes se invierten.
@@ -325,6 +339,8 @@ const Row(
   ],
 )
 ```
+
+<img src="img/catalogo/row.png" alt="Row" width="380">
 
 > [!WARNING]
 > Si los hijos de un `Row` son más anchos que la pantalla, verás una **franja amarilla y negra** (*overflow*). Solución: envuelve el hijo largo en [`Expanded`](#expanded).
@@ -366,6 +382,8 @@ Row(
 )
 ```
 
+<img src="img/catalogo/expanded.png" alt="Expanded" width="380">
+
 ### `Spacer`
 
 Un espacio vacío **elástico** que empuja a los demás widgets hacia los extremos.
@@ -380,6 +398,8 @@ const Row(
 )
 ```
 
+<img src="img/catalogo/spacer.png" alt="Spacer" width="380">
+
 ### `Center`
 
 Centra a su hijo (horizontal y verticalmente) dentro del espacio disponible.
@@ -389,6 +409,8 @@ const Center(
   child: Text('Estoy al centro'),
 )
 ```
+
+<img src="img/catalogo/center.png" alt="Center" width="380">
 
 ### `Align`
 
@@ -400,6 +422,8 @@ const Align(
   child: Icon(Icons.close),
 )
 ```
+
+<img src="img/catalogo/align.png" alt="Align" width="380">
 
 ### `Stack` y `Positioned`
 
@@ -431,6 +455,8 @@ Stack(
 )
 ```
 
+<img src="img/catalogo/stack.png" alt="Stack y Positioned" width="380">
+
 ### `Wrap`
 
 Como un `Row`, pero cuando los hijos **no caben, bajan a la siguiente línea** ↩️ (como las palabras de un párrafo). Ideal para etiquetas o [`Chip`](#chip).
@@ -455,6 +481,8 @@ const Wrap(
 )
 ```
 
+<img src="img/catalogo/wrap.png" alt="Wrap" width="380">
+
 ---
 
 ## 📏 Espaciado y decoración
@@ -469,6 +497,8 @@ const Padding(
   child: Text('Con espacio alrededor'),
 )
 ```
+
+<img src="img/catalogo/padding.png" alt="Padding" width="380">
 
 ### `SizedBox`
 
@@ -489,6 +519,8 @@ Column(
   ],
 )
 ```
+
+<img src="img/catalogo/sizedbox.png" alt="SizedBox" width="380">
 
 > [!TIP]
 > En un `Column` separa con `SizedBox(height: ...)`. En un `Row` separa con `SizedBox(width: ...)`.
@@ -520,6 +552,8 @@ Container(
 )
 ```
 
+<img src="img/catalogo/container.png" alt="Container" width="380">
+
 **Padding vs margin** 🖼️: piensa en un cuadro con marco. El `padding` es el espacio entre el marco y la foto; el `margin` es el espacio entre el marco y la pared.
 
 > [!WARNING]
@@ -538,6 +572,8 @@ Una **línea horizontal** para separar secciones.
 ```dart
 const Divider(height: 32, thickness: 1)
 ```
+
+<img src="img/catalogo/divider.png" alt="Divider" width="380">
 
 ### `Card`
 
@@ -567,6 +603,8 @@ const Card(
 )
 ```
 
+<img src="img/catalogo/card.png" alt="Card" width="380">
+
 > **Nota:** `Card` **no** tiene `padding`. Para separar el contenido de los bordes, mete un `Padding` dentro.
 
 ### `Chip`
@@ -585,6 +623,8 @@ const Chip(
   label: Text('Wi-Fi gratis'),
 )
 ```
+
+<img src="img/catalogo/chip.png" alt="Chip" width="380">
 
 ---
 
@@ -618,6 +658,8 @@ ListTile(
   onTap: () {},
 )
 ```
+
+<img src="img/catalogo/listtile.png" alt="ListTile" width="380">
 
 ### `SingleChildScrollView`
 
@@ -668,6 +710,8 @@ ListView.builder(
 )
 ```
 
+<img src="img/catalogo/listview.png" alt="ListView" width="380">
+
 > [!WARNING]
 > Un `ListView` dentro de un `Column` da el error *"Vertical viewport was given unbounded height"*. Envuélvelo en `Expanded`.
 
@@ -715,6 +759,8 @@ FilledButton.icon(
 )
 ```
 
+<img src="img/catalogo/botones.png" alt="Botones" width="380">
+
 > **Nota:** Por ahora pon `onPressed: () {}` (una función vacía). El botón se verá activo pero no hará nada. Más adelante le darás acciones reales.
 
 ### `FloatingActionButton`
@@ -736,6 +782,8 @@ Scaffold(
   ),
 )
 ```
+
+<img src="img/catalogo/fab.png" alt="FloatingActionButton" width="380">
 
 ---
 
@@ -768,6 +816,8 @@ const Text(
 )
 ```
 
+<img src="img/catalogo/textstyle.png" alt="TextStyle" width="380">
+
 ### `EdgeInsets`
 
 Medidas de espacio para `padding` y `margin`.
@@ -791,6 +841,8 @@ La paleta de colores de Material.
 | Negro/blanco semitransparente | `Colors.black54`, `Colors.black26`, `Colors.white70` |
 | Transparente | `Colors.transparent` |
 | Color exacto (hexadecimal) | `Color(0xFF6200EE)` → `0xFF` + el código `6200EE` |
+
+<img src="img/catalogo/colors.png" alt="Colors" width="380">
 
 ### `BoxDecoration`
 
@@ -818,6 +870,8 @@ Container(
   child: const Text('Caja con borde y sombra'),
 )
 ```
+
+<img src="img/catalogo/boxdecoration.png" alt="BoxDecoration" width="380">
 
 ### `BorderRadius`
 
@@ -853,6 +907,8 @@ Alinean a los hijos de `Column` y `Row`. El **eje principal** es la dirección e
 | `end` | Al final (en `Column`: a la derecha) |
 | `stretch` | Estira a los hijos para ocupar todo el ancho (o alto) |
 
+<img src="img/catalogo/mainaxisalignment.png" alt="MainAxisAlignment y CrossAxisAlignment" width="380">
+
 ### `Alignment`
 
 Una posición dentro de una caja. Se usa en `Align`, `Container(alignment:)` y `Stack(alignment:)`.
@@ -873,6 +929,8 @@ Cómo se ajusta una imagen al espacio que le diste (`width` y `height`).
 | `contain` | Se ve la imagen completa, puede dejar espacios vacíos |
 | `fill` | Llena todo el espacio deformando la imagen |
 | `fitWidth` | Ajusta al ancho |
+
+<img src="img/catalogo/boxfit.png" alt="BoxFit" width="380">
 
 ---
 
