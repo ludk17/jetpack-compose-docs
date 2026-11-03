@@ -112,6 +112,14 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Ejercicio: Pantalla Stateless](docs/8.%20flutter/6-ejercicio-pantalla-stateless.md) | Pantalla "Café UPN" paso a paso: `Stack`, `Wrap`, `Chip`, `Card`, `ListTile`, `Expanded`, widget propio reutilizable |
 | [Guía paso a paso: Café UPN](docs/8.%20flutter/7-guia-paso-a-paso-cafe-upn.md) | Construcción guiada del ejercicio 6: código de cada paso, por qué se usa cada widget, resultado esperado y errores frecuentes |
 
+#### 🏋️ Ejercicios de Flutter
+> Práctica de interfaces con pistas, sin solución
+
+| Archivo | Temas |
+|---|---|
+| [Ejercicio 1: Contenedores, Column y Row](ejercicios/flutter/1-contenedores-column-row.md) | Calentamiento con cajas (semáforo, bandera, mosaico) y pantalla "Mi Panel UPN": `Container`, `Column`, `Row`, `Expanded`, `flex`, `Spacer`, `SizedBox`, alineaciones |
+| [Ejercicio 2: Pantalla Feria Tech UPN](ejercicios/flutter/2-pantalla-feria-tech.md) | `Stack`, `Positioned`, `Image.network`, `Chip`, `Wrap`, `CircleAvatar`, `Card`, `ListTile`, `TextField`, botones, `NavigationBar`, widget propio reutilizable |
+
 ---
 
 > 🔄 *Este repositorio se actualiza semanalmente con el material de cada clase.*
