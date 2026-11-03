@@ -439,3 +439,5 @@ flowchart TD
 ---
 
 _Anterior: [← Ejercicio 1: Contenedores, Column y Row](1-contenedores-column-row.md)_
+
+_Siguiente: [Ejercicio 3: Pantalla Biblioteca UPN →](3-pantalla-biblioteca-upn.md)_

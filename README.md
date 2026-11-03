@@ -119,6 +119,7 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 |---|---|
 | [Ejercicio 1: Contenedores, Column y Row](ejercicios/flutter/1-contenedores-column-row.md) | Calentamiento con cajas (semáforo, bandera, mosaico) y pantalla "Mi Panel UPN": `Container`, `Column`, `Row`, `Expanded`, `flex`, `Spacer`, `SizedBox`, alineaciones |
 | [Ejercicio 2: Pantalla Feria Tech UPN](ejercicios/flutter/2-pantalla-feria-tech.md) | `Stack`, `Positioned`, `Image.network`, `Chip`, `Wrap`, `CircleAvatar`, `Card`, `ListTile`, `TextField`, botones, `NavigationBar`, widget propio reutilizable |
+| [Ejercicio 3: Pantalla Biblioteca UPN](ejercicios/flutter/3-pantalla-biblioteca-upn.md) | Misma lógica del ejercicio 2 con otra pantalla: `Stack` con tres `Positioned`, `Chip`, `Wrap`, `Expanded` para anchos iguales, `CircleAvatar`, `Card`, `ListTile`, `TextField` multilínea, botones, `NavigationBar`, widget propio `DatoLibro` |
 
 ---
 
