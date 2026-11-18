@@ -753,4 +753,4 @@ Ahora intenta los [Retos extra del Ejercicio 6](6-ejercicio-pantalla-stateless.m
 
 ---
 
-_Anterior: [← Ejercicio: Pantalla Stateless](6-ejercicio-pantalla-stateless.md)_
+_Anterior: [← Ejercicio: Pantalla Stateless](6-ejercicio-pantalla-stateless.md)_ · _Siguiente: [Future, async y await →](../9.%20flutter%20http/1-future-async-await.md)_

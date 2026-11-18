@@ -448,4 +448,4 @@ flowchart TD
 
 ---
 
-_Anterior: [← Ejercicio 2: Pantalla Feria Tech UPN](2-pantalla-feria-tech.md)_
+_Anterior: [← Ejercicio 2: Pantalla Feria Tech UPN](2-pantalla-feria-tech.md)_ · _Siguiente: [Ejercicio 4: Lista "Talleres UPN" desde MockAPI →](4-lista-talleres-mockapi.md)_

@@ -112,6 +112,19 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Ejercicio: Pantalla Stateless](docs/8.%20flutter/6-ejercicio-pantalla-stateless.md) | Pantalla "Café UPN" paso a paso: `Stack`, `Wrap`, `Chip`, `Card`, `ListTile`, `Expanded`, widget propio reutilizable |
 | [Guía paso a paso: Café UPN](docs/8.%20flutter/7-guia-paso-a-paso-cafe-upn.md) | Construcción guiada del ejercicio 6: código de cada paso, por qué se usa cada widget, resultado esperado y errores frecuentes |
 
+### 📂 9. Flutter + HTTP
+> Semana 15+ — Consumir una API REST (MockAPI) desde Flutter
+
+| Archivo | Temas |
+|---|---|
+| [Future, async y await](docs/9.%20flutter%20http/1-future-async-await.md) | `Future<T>`, `async` / `await`, `try` / `catch` / `finally`, `throw`, comparación con corrutinas |
+| [MockAPI](docs/9.%20flutter%20http/2-mockapi.md) | Crear proyecto y recurso, esquema y tipos, endpoints CRUD, probar con navegador y Postman, filtros y búsqueda |
+| [El paquete http y JSON](docs/9.%20flutter%20http/3-paquete-http.md) | `flutter pub add http`, permiso de internet, `Uri.parse`, `GET` / `POST` / `PUT` / `DELETE`, `statusCode`, `jsonDecode` / `jsonEncode` |
+| [Modelos y clase de servicio](docs/9.%20flutter%20http/4-modelos-y-servicio.md) | `factory fromJson`, `toJson`, convertir listas con `.map().toList()`, clase de servicio, organizar carpetas |
+| [Mostrar datos en pantalla](docs/9.%20flutter%20http/5-mostrar-datos-en-pantalla.md) | `initState`, estados cargando / error / vacío / éxito, `CircularProgressIndicator`, `ListView.builder`, `RefreshIndicator`, `Dismissible`, `mounted`, `SnackBar` |
+| [Formularios con validación](docs/9.%20flutter%20http/6-formularios.md) | `Form`, `GlobalKey<FormState>`, `TextFormField`, `validator`, `TextEditingController`, `dispose`, `DropdownButtonFormField`, `SwitchListTile`, `POST` / `PUT` desde un formulario |
+| [Navegar entre pantallas](docs/9.%20flutter%20http/7-navegar-entre-pantallas.md) | `Navigator.push` / `pop`, `MaterialPageRoute`, devolver un resultado, recargar la lista, pasar datos por constructor |
+
 #### 🏋️ Ejercicios de Flutter
 > Práctica de interfaces con pistas, sin solución
 
@@ -120,6 +133,8 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Ejercicio 1: Contenedores, Column y Row](ejercicios/flutter/1-contenedores-column-row.md) | Calentamiento con cajas (semáforo, bandera, mosaico) y pantalla "Mi Panel UPN": `Container`, `Column`, `Row`, `Expanded`, `flex`, `Spacer`, `SizedBox`, alineaciones |
 | [Ejercicio 2: Pantalla Feria Tech UPN](ejercicios/flutter/2-pantalla-feria-tech.md) | `Stack`, `Positioned`, `Image.network`, `Chip`, `Wrap`, `CircleAvatar`, `Card`, `ListTile`, `TextField`, botones, `NavigationBar`, widget propio reutilizable |
 | [Ejercicio 3: Pantalla Biblioteca UPN](ejercicios/flutter/3-pantalla-biblioteca-upn.md) | Misma lógica del ejercicio 2 con otra pantalla: `Stack` con tres `Positioned`, `Chip`, `Wrap`, `Expanded` para anchos iguales, `CircleAvatar`, `Card`, `ListTile`, `TextField` multilínea, botones, `NavigationBar`, widget propio `DatoLibro` |
+| [Ejercicio 4: Lista "Talleres UPN" desde MockAPI](ejercicios/flutter/4-lista-talleres-mockapi.md) | Crear tu API en MockAPI, `http` (`GET`), modelo con `fromJson`, clase de servicio, `initState`, estados cargando / error / vacío / éxito, `ListView.builder`, `Card`, `RefreshIndicator`. Sin IA: solo con la documentación |
+| [Ejercicio 5: Formulario "Nuevo taller" con MockAPI](ejercicios/flutter/5-formulario-talleres-mockapi.md) | `Form`, `TextFormField`, `validator`, `TextEditingController`, `DropdownButtonFormField`, `SwitchListTile`, `toJson` + `POST`, evitar doble envío, `Navigator.push` / `pop` con resultado. Sin IA: solo con la documentación |
 
 ---
 
@@ -195,14 +210,22 @@ jetpack-compose-docs/
     │   ├── 2-funciones.md
     │   ├── 3-parametros-nombrados.md
     │   └── 4-clases-e-instancias.md
-    └── 8. flutter/
-        ├── 1-que-es-flutter-y-materialapp.md
-        ├── 2-scaffold.md
-        ├── 3-widgets-mas-usados.md
-        ├── 4-stateless-vs-stateful.md
-        ├── 5-catalogo-de-widgets.md
-        ├── 6-ejercicio-pantalla-stateless.md
-        └── 7-guia-paso-a-paso-cafe-upn.md
+    ├── 8. flutter/
+    │   ├── 1-que-es-flutter-y-materialapp.md
+    │   ├── 2-scaffold.md
+    │   ├── 3-widgets-mas-usados.md
+    │   ├── 4-stateless-vs-stateful.md
+    │   ├── 5-catalogo-de-widgets.md
+    │   ├── 6-ejercicio-pantalla-stateless.md
+    │   └── 7-guia-paso-a-paso-cafe-upn.md
+    └── 9. flutter http/
+        ├── 1-future-async-await.md
+        ├── 2-mockapi.md
+        ├── 3-paquete-http.md
+        ├── 4-modelos-y-servicio.md
+        ├── 5-mostrar-datos-en-pantalla.md
+        ├── 6-formularios.md
+        └── 7-navegar-entre-pantallas.md
 ```
 
 ---
