@@ -136,6 +136,13 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | [Ejercicio 4: Lista "Talleres UPN" desde MockAPI](ejercicios/flutter/4-lista-talleres-mockapi.md) | Crear tu API en MockAPI, `http` (`GET`), modelo con `fromJson`, clase de servicio, `initState`, estados cargando / error / vacío / éxito, `ListView.builder`, `Card`, `RefreshIndicator`. Sin IA: solo con la documentación |
 | [Ejercicio 5: Formulario "Nuevo taller" con MockAPI](ejercicios/flutter/5-formulario-talleres-mockapi.md) | `Form`, `TextFormField`, `validator`, `TextEditingController`, `DropdownButtonFormField`, `SwitchListTile`, `toJson` + `POST`, evitar doble envío, `Navigator.push` / `pop` con resultado. Sin IA: solo con la documentación |
 
+#### 🏋️ Ejercicios de Flutter · Grupo B
+> Misma dificultad que los ejercicios 4 y 5, con otro tema. Sin IA: solo con la documentación
+
+| Archivo | Temas |
+|---|---|
+| [Ejercicio 1: Lista "Objetos Perdidos UPN" desde MockAPI](ejercicios/flutter/grupoB/1-lista-objetos-perdidos-mockapi.md) | Crear tu API en MockAPI, `http` (`GET`), modelo con `fromJson`, clase de servicio, `initState`, estados cargando / error / vacío / éxito, `ListView.builder`, `Card`, condiciones combinadas (`&&`, `!`), `RefreshIndicator` |
+
 ---
 
 > 🔄 *Este repositorio se actualiza semanalmente con el material de cada clase.*
