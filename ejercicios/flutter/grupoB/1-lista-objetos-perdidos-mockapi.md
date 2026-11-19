@@ -405,3 +405,7 @@ Los estados de error y vacío casi nunca aparecen solos. **Provócalos** para co
 2. **Los más antiguos primero:** que la lista llegue ordenada de **más** a **menos** días, para que los que están por donarse salgan arriba. Otra vez: que lo haga el servidor.
 3. **Detalle del objeto:** al tocar un objeto, abre una pantalla nueva que pida **ese** objeto por su `id` (otro método en tu servicio) y lo muestre con la foto grande. Esa pantalla también tiene sus estados de carga y error. 📖 [7. Navegar entre pantallas](../../../docs/9.%20flutter%20http/7-navegar-entre-pantallas.md)
 4. **Buscador:** agrega arriba de la lista un campo de texto con un botón de lupa. Al tocar la lupa, la lista se recarga mostrando solo los objetos que contienen ese texto (usa la búsqueda de MockAPI). Si el campo está vacío, se muestran todos. Cuando la búsqueda no encuentra nada, MockAPI responde `404` con `"Not found"` (compruébalo en el navegador). Tu app debe mostrar el estado **vacío**, no el de error. ¿Dónde conviene resolverlo: en el servicio o en la pantalla? 📖 [2. MockAPI: buscar](../../../docs/9.%20flutter%20http/2-mockapi.md), [6. TextEditingController](../../../docs/9.%20flutter%20http/6-formularios.md)
+
+---
+
+_Siguiente: [Grupo B · Ejercicio 2: Formulario "Reportar objeto" →](2-formulario-objetos-perdidos-mockapi.md)_

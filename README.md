@@ -142,6 +142,7 @@ Jetpack Compose es el toolkit moderno de Android para construir interfaces de us
 | Archivo | Temas |
 |---|---|
 | [Ejercicio 1: Lista "Objetos Perdidos UPN" desde MockAPI](ejercicios/flutter/grupoB/1-lista-objetos-perdidos-mockapi.md) | Crear tu API en MockAPI, `http` (`GET`), modelo con `fromJson`, clase de servicio, `initState`, estados cargando / error / vacío / éxito, `ListView.builder`, `Card`, condiciones combinadas (`&&`, `!`), `RefreshIndicator` |
+| [Ejercicio 2: Formulario "Reportar objeto" con MockAPI](ejercicios/flutter/grupoB/2-formulario-objetos-perdidos-mockapi.md) | `http` (`POST`), `toJson` + `jsonEncode`, `Content-Type`, `Form` + `GlobalKey`, `TextFormField` con validadores, `DropdownButtonFormField`, `SwitchListTile`, `Navigator.push` / `pop` con resultado, recargar la lista |
 
 ---
 
